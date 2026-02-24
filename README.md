@@ -18,3 +18,9 @@ This tool provides a **centralized command center** for Network Administrators t
 
 ## ⚖️ License
 MIT - Created for enterprise-level WordPress environments.
+
+### ⚡ Frontend Performance Tweaks
+The repository also includes `wp-performance-tweaks.php` to eliminate common WordPress overhead:
+* **Bloat Removal:** Cleans up unnecessary meta tags (generator, rsd, wlwmanifest) from `wp_head`.
+* **Emoji Disable:** Stops the loading of emoji-related scripts and styles.
+* **Heartbeat Optimization:** Deregisters the Heartbeat API on the frontend to preserve server resources.
